@@ -1,0 +1,4 @@
+useDynLib(miteFinder)
+exportPattern("^[[:alpha:]]+")
+export(readFasta)
+importFrom(Rcpp,sourceCpp)
